@@ -3,12 +3,29 @@ body {
 }
 
 header {
-    background-color: #034951;
+    background-color: #e4f9fd;
     padding: 15px;
     text-align: center;
-    border-bottom: 7px solid #AEDDE5;
+    border-bottom: 7px solid black;
 }
 
 h1 {
-    color: #FFFFFF
+    color: black;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row; /*BY DEFAULT*/
+    max-width: 1600px;
+    margin: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    border-radius: 20px;
 }
